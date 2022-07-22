@@ -15,10 +15,10 @@ from radiomics import featureextractor
 def main():
   outPath = r'/home/yannick/Downloads/metas'
 
-  inputCSV = "/home/yannick/Downloads/metas/pyrad_batchinput.csv"
-  outputFilepath = "/home/yannick/Downloads/metas/pyrad_feat.csv"
+  inputCSV = r"/home/yannick/Downloads/metas/pyrad_batchinput.csv"
+  outputFilepath = r"/home/yannick/Downloads/metas/pyrad_feat.csv"
   progress_filename = os.path.join(outPath, 'pyrad_log.txt')
-  params = "/media/yannick/c4a7e8d3-9ac5-463f-b6e6-92e216ae6ac0/MANAGE/code/MANAGE/molab/settings.yaml"
+  params = r"/media/yannick/c4a7e8d3-9ac5-463f-b6e6-92e216ae6ac0/MANAGE/code/MANAGE/molab/settings.yaml"
 
   # Configure logging
   rLogger = logging.getLogger('radiomics')
