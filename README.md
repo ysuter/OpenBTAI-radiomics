@@ -1,1 +1,1 @@
-# OpenBTAI-radiomics
+# Code used to extract feautures
