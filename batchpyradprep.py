@@ -52,21 +52,3 @@ for dir in dirlist:
             curridx += 1
 
 batchdf.to_csv(os.path.join(rootdir, "pyrad_batchinput.csv"), index=None)
-#
-#
-#
-#
-# segfiles = glob(os.path.join(rootdir, "*", "*", "NIFTI", "*msk*"))
-#
-# labellist = []
-#
-# for seg in tqdm(segfiles):
-#     img = sitk.ReadImage(seg)
-#     labels = np.unique(sitk.GetArrayFromImage(img))
-#     labellist.extend(labels)
-#
-# print(labellist)
-# print(np.unique(labellist))
-# labelarr = np.array(labellist)
-# uniquelabeles = np.unique(labelarr[labelarr > 0])
-# print(uniquelabeles)
