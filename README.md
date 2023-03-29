@@ -1,4 +1,4 @@
-# Code used to extract feautures
+# Code used to extract features
 
 The code available here may be used to customize the feature extraction and tailor it to a target task.
 
